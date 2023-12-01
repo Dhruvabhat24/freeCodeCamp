@@ -618,8 +618,8 @@ importers:
         specifier: 3.15.0
         version: 3.15.0(gatsby@4.25.7)
       gatsby-transformer-remark:
-        specifier: 4.12.0
-        version: 4.12.0(gatsby@4.25.7)
+        specifier: 5.25.1
+        version: 5.25.1(gatsby@4.25.7)
       i18next:
         specifier: 22.5.1
         version: 22.5.1
@@ -2369,7 +2369,7 @@ packages:
       '@babel/helper-annotate-as-pure': 7.22.5
       '@babel/helper-environment-visitor': 7.22.20
       '@babel/helper-function-name': 7.23.0
-      '@babel/helper-member-expression-to-functions': 7.22.15
+      '@babel/helper-member-expression-to-functions': 7.22.5
       '@babel/helper-optimise-call-expression': 7.22.5
       '@babel/helper-replace-supers': 7.22.9(@babel/core@7.23.0)
       '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
@@ -10533,7 +10533,7 @@ packages:
     resolution: {integrity: sha512-b3nLFGaGkJ9rzOcuXRfHkZMdjsawuDD0ENL9fzTophtBg8FJHSGbH7daXkEpcwy3v7Xol3pAvsmlYyFhR4pqJw==}
     dependencies:
       '@types/node': 20.5.9
-      '@types/unist': 2.0.7
+      '@types/unist': 3.0.0
       '@types/vfile-message': 2.0.0
     dev: false
 
@@ -19092,15 +19092,15 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /gatsby-transformer-remark@4.12.0(gatsby@4.25.7):
-    resolution: {integrity: sha512-SpKrSyp7WHiUJCaLsZn1TWprzlO4QO7Lgvx7c42KRIUOmNqCz2A9XJ1LDKSHS8Fp6STKNDo2i82sy6NbMan3og==}
-    engines: {node: '>=12.13.0'}
+  /gatsby-transformer-remark@5.25.1(gatsby@4.25.7):
+    resolution: {integrity: sha512-6k3uOnZYsJSgmZIWq9Y+Cqb6pysusCUBYpQY1+V9ofpSRbrZGGfuoCeFKd27x/c0jI5jneuL3NXnxwn/JJK1Ig==}
+    engines: {node: '>=14.15.0'}
     peerDependencies:
-      gatsby: ^3.0.0-next.0
+      gatsby: ^4.0.0-next
     dependencies:
-      '@babel/runtime': 7.20.13
+      '@babel/runtime': 7.22.11
       gatsby: 4.25.7(babel-eslint@10.1.0)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-testing-library@3.9.0)(react-dom@16.14.0)(react@16.14.0)(typescript@4.9.5)(webpack-cli@4.10.0)
-      gatsby-core-utils: 2.15.0
+      gatsby-core-utils: 3.25.0
       gray-matter: 4.0.3
       hast-util-raw: 6.1.0
       hast-util-to-html: 7.1.3
